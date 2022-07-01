@@ -6,8 +6,518 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Lab Project</title>
     <link rel="stylesheet" href="./style.css">
+    <!-- For animate  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Animate on scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
+<!-- Header Start  -->
+   <div class="header">
+    <div class="logoContainer">
+        <img src="./img/codelab.svg" alt="">
+        <h2>CODE LAB</h2>
+    </div>
+    <div class="meun">
+        <ul>
+            <a href="#home"><li>Home</li></a>
+            <a href="#course"><li>Course</li></a>
+            <a href="#teacher"><li>Teacher</li></a>
+            <a href="#review"><li>Review</li></a>
+            <a href="#contact"><li>Contact</li></a>
+        </ul>
+    </div>
+</div>
+<!-- Header End  -->
+<!-- Home Start  -->
+<section id="home" class="home">
+    <div class="content animate__animated animate__fadeInLeft">
+        <div>We <span>Learn,</span></div>
+        <div>We <span>Share,</span></div>
+        <div>We <span>Code,</span></div>
+        <div class="labo">This <span>Laboratory</span> is<br> for all coders.</div>
+        <button class="btn">GET STARTED</button>
+    </div>
+    <div class="homeImg animate__animated animate__fadeInRight">
+        <img src="./img/home.svg" alt="">
+    </div>
+</section>
+<!-- Home End  -->
+
+<!-- Course Start  -->
+<section id="course" class="course">
+    <div class="title"  data-aos="flip-left">
+        <h1>POPULAR COURSES</h1>
+    </div>
+    <div class="courseContent">
+        <div class="courseCard sideCourse" data-aos="fade-right">
+            <div>
+                <img src="./img/vue.svg" alt="" class="courseImg">
+            </div>
+            <h3>Vue Js Course</h3>
+            <div class="courseBtn">
+                <button class="btn ">Learn More</button>
+            </div>
+            <hr>
+            <div class="cardFooter">
+                <div class="footerControl">
+                    <img src="./img/clock-regular.svg" alt="" class="icon">
+                    <span>3 Months</span>
+                </div>
+                <div class="footerControl">
+                    <img src="./img/book-solid.svg" alt="" class="icon">
+                    <span>10 Modules</span>
+                </div>
+                
+            </div>
+            <span class="priceTag">50,000 MMK</span>
+        </div>
+        <div class="secondColumn">
+            <div class="courseCard centerCourse" data-aos="fade-down">
+                <div>
+                    <img src="./img/AZ.svg" alt="" class="courseImg">
+                </div>
+                <h3>A to Z Course</h3>
+                <div class="courseBtn">
+                    <button class="btn ">Learn More</button>
+                </div>
+                <hr>
+                <div class="cardFooter">
+                    <div class="footerControl">
+                        <img src="./img/clock-regular.svg" alt="" class="icon">
+                        <span>6 Months</span>
+                    </div>
+                    <div class="footerControl">
+                        <img src="./img/book-solid.svg" alt="" class="icon">
+                        <span>16 Modules</span>
+                    </div>
+                    
+                </div>
+                <span class="priceTag">150,000 MMK</span>
+            </div>
+            <div class="courseCard centerCourse" data-aos="fade-up">
+                <div>
+                    <img src="./img/uiux.svg" alt="" class="courseImg">
+                </div>
+                <h3>Ui Ux Design Course</h3>
+                <div class="courseBtn">
+                    <button class="btn ">Learn More</button>
+                </div>
+                <hr>
+                <div class="cardFooter">
+                    <div class="footerControl">
+                        <img src="./img/clock-regular.svg" alt="" class="icon">
+                        <span>3 Months</span>
+                    </div>
+                    <div class="footerControl">
+                        <img src="./img/book-solid.svg" alt="" class="icon">
+                        <span>10 Modules</span>
+                    </div>
+                    
+                </div>
+                <span class="priceTag">70,000 MMK</span>
+            </div>
+        </div>
+        <div class="courseCard sideCourse" data-aos="fade-left">
+            <div>
+                <img src="./img/vue.svg" alt="" class="courseImg">
+            </div>
+            <h3>FDC Course</h3>
+            <div class="courseBtn">
+                <button class="btn ">Learn More</button>
+            </div>
+            <hr>
+            <div class="cardFooter">
+                <div class="footerControl">
+                    <img src="./img/clock-regular.svg" alt="" class="icon">
+                    <span>3 Months</span>
+                </div>
+                <div class="footerControl">
+                    <img src="./img/book-solid.svg" alt="" class="icon">
+                    <span>10 Modules</span>
+                </div>
+                
+            </div>
+            <span class="priceTag">50,000 MMK</span>
+        </div>
+
+    </div>
     
+</section>
+<!-- Course End  -->
+<!-- Teacher Start  -->
+<section id="teacher" class="teacher">
+    <div class="title"  data-aos="flip-left">
+        <h1>EXPERIENCED TEACHERS</h1>
+    </div>
+    <div class="teacherContainer">
+        <div class="teacherCard"  data-aos="fade-up-right">
+            <img src="./img/kosithu1.jpg" alt="" class="teacherImg">
+            <h2>Mr Si Thu</h2>
+            <h5>A-Z Teacher</h5>
+            <hr class="divider">
+            <div class="socialMedia">
+                <div class="socialMediaImage">
+                    <img src="./img/facebook-brands.svg" alt="">
+                </div>
+                <div class="socialMediaImage">
+                    <img src="./img/instagram-brands.svg" alt="">
+                </div>
+                <div class="socialMediaImage">
+                    <img src="./img/phone-solid.svg" alt="">
+                </div>
+                <div class="socialMediaImage">
+                    <img src="./img/viber-brands.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="teacherCard" data-aos="zoom-in">
+            <img src="./img/sigmund-a19OVaa2rzA-unsplash.jpg" alt="" class="teacherImg">
+            <h2>Mr John</h2>
+            <h5>Vue Js Teacher</h5>
+            <hr class="divider">
+            <div class="socialMedia">
+                <div class="socialMediaImage">
+                    <img src="./img/facebook-brands.svg" alt="">
+                </div>
+                <div class="socialMediaImage">
+                    <img src="./img/instagram-brands.svg" alt="">
+                </div>
+                <div class="socialMediaImage">
+                    <img src="./img/phone-solid.svg" alt="">
+                </div>
+                <div class="socialMediaImage">
+                    <img src="./img/viber-brands.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="teacherCard" data-aos="zoom-in">
+            <img src="./img/sigmund-jzz_3jWMzHA-unsplash.jpg" alt="" class="teacherImg">
+            <h2>Ms Smith</h2>
+            <h5>FDC Teacher</h5>
+            <hr class="divider">
+            <div class="socialMedia">
+                <div class="socialMediaImage">
+                    <img src="./img/facebook-brands.svg" alt="">
+                </div>
+                <div class="socialMediaImage">
+                    <img src="./img/instagram-brands.svg" alt="">
+                </div>
+                <div class="socialMediaImage">
+                    <img src="./img/phone-solid.svg" alt="">
+                </div>
+                <div class="socialMediaImage">
+                    <img src="./img/viber-brands.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="teacherCard" data-aos="fade-up-left">
+            <img src="./img/usman-yousaf-CSXS5Bsjdo4-unsplash.jpg" alt="" class="teacherImg">
+            <h2>Mr Carrick</h2>
+            <h5>Ui Ux Teacher</h5>
+            <hr class="divider">
+            <div class="socialMedia">
+                <div class="socialMediaImage">
+                    <img src="./img/facebook-brands.svg" alt="">
+                </div>
+                <div class="socialMediaImage">
+                    <img src="./img/instagram-brands.svg" alt="">
+                </div>
+                <div class="socialMediaImage">
+                    <img src="./img/phone-solid.svg" alt="">
+                </div>
+                <div class="socialMediaImage">
+                    <img src="./img/viber-brands.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Teacher End  -->
+<!-- Review Start  -->
+<section id="review" class="review">
+    <div class="title"  data-aos="flip-left">
+        <h1>STUDENT'S REVIEWS</h1>
+    </div>
+    <div class="titleContainer">
+        <div class="titleCard" data-aos="flip-down">
+            <div class="studentContainer">
+                <img src="./img/nayeon.jpg" alt="" class="student">
+                <div class="text">
+                    <h2>Nayeon</h2>
+                    <span>A-Z Student</span>
+                </div>
+            </div>
+            <div class="starContainer">
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+            </div>
+            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam magnam ipsum nostrum velit blanditiis.</span>
+        </div>
+        <div class="titleCard" data-aos="flip-down">
+            <div class="studentContainer">
+                <img src="./img/jongjyeon.jpg" alt="" class="student">
+                <div class="text">
+                    <h2>jongjyeon</h2>
+                    <span>Ui Ux Student</span>
+                </div>
+            </div>
+            <div class="starContainer">
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+            </div>
+            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam magnam ipsum nostrum velit blanditiis.</span>
+        </div>
+        <div class="titleCard" data-aos="flip-down">
+            <div class="studentContainer">
+                <img src="./img/momo.jpg" alt="" class="student">
+                <div class="text">
+                    <h2>Mo Mo</h2>
+                    <span>FDC Student</span>
+                </div>
+            </div>
+            <div class="starContainer">
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+            </div>
+            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam magnam ipsum nostrum velit blanditiis.</span>
+        </div>
+    </div>
+    <div class="titleContainer">
+        <div class="titleCard" data-aos="flip-down">
+            <div class="studentContainer">
+                <img src="./img/sana.jpg" alt="" class="student">
+                <div class="text">
+                    <h2>Sana</h2>
+                    <span>Vue Js Student</span>
+                </div>
+            </div>
+            <div class="starContainer">
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+            </div>
+            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam magnam ipsum nostrum velit blanditiis.</span>
+        </div>
+        <div class="titleCard" data-aos="flip-down">
+            <div class="studentContainer">
+                <img src="./img/jihyo.jpg" alt="" class="student">
+                <div class="text">
+                    <h2>Jihyo</h2>
+                    <span>A-Z Student</span>
+                </div>
+            </div>
+            <div class="starContainer">
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+            </div>
+            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam magnam ipsum nostrum velit blanditiis.</span>
+        </div>
+        <div class="titleCard" data-aos="flip-down">
+            <div class="studentContainer">
+                <img src="./img/mina.jpg" alt="" class="student">
+                <div class="text">
+                    <h2>Mina</h2>
+                    <span>Ui Ux Student</span>
+                </div>
+            </div>
+            <div class="starContainer">
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+            </div>
+            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam magnam ipsum nostrum velit blanditiis.</span>
+        </div>
+    </div>
+    <div class="titleContainer">
+        <div class="titleCard" data-aos="flip-down">
+            <div class="studentContainer">
+                <img src="./img/dahyun.jpg" alt="" class="student">
+                <div class="text">
+                    <h2>Dahyun</h2>
+                    <span>A-Z Student</span>
+                </div>
+            </div>
+            <div class="starContainer">
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+            </div>
+            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam magnam ipsum nostrum velit blanditiis.</span>
+        </div>
+        <div class="titleCard" data-aos="flip-down">
+            <div class="studentContainer">
+                <img src="./img/chae.jpg" alt="" class="student">
+                <div class="text">
+                    <h2>Chae</h2>
+                    <span>FDC Student</span>
+                </div>
+            </div>
+            <div class="starContainer">
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+            </div>
+            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam magnam ipsum nostrum velit blanditiis.</span>
+        </div>
+        <div class="titleCard" data-aos="flip-down">
+            <div class="studentContainer">
+                <img src="./img/t.jpg" alt="" class="student">
+                <div class="text">
+                    <h2>Tzuyu</h2>
+                    <span>Vue Js Student</span>
+                </div>
+            </div>
+            <div class="starContainer">
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+                <div class="star">
+                    <img src="./img/icon-star.svg" alt="">
+                </div>
+            </div>
+            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam magnam ipsum nostrum velit blanditiis.</span>
+        </div>
+    </div>
+</section>
+<!-- Review End  -->
+<!-- Contact Start -->
+<section id="contact" class="contact">
+    <div class="homeImg" data-aos="fade-right">
+        <img src="./img/contact_us.svg" alt="">
+    </div>
+    <div class="content contactContent" data-aos="fade-left">
+        <h6>Feel free to contact us any time</h6>
+        <div class="contactItem">
+            <img src="./img/phone-solid.svg" alt="" class="icon">
+            <div>09-796789321</div>
+        </div>
+        <div class="contactItem">
+            <img src="./img/envelope-solid.svg" alt="" class="icon">
+            <div>codelab@gmail.com</div>
+        </div>
+        <div class="contactItem">
+            <img src="./img/facebook-brands.svg" alt="" class="icon">
+            <div>CODE LAB</div>
+        </div>
+    </div>
+</section>
+<!-- Contact End  -->
+<!-- footer  -->
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

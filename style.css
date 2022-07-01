@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --background : #f4f4f4;
+    --primary : #00ebc7;
+    --secondary : #fde24f;
+    --text : #00214d;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    color: var(--text);
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    height: 3000px;
+    background-color: var(--background);
+}
+/* header Start  */
+.header{
+    max-width: 100%;
+    background-color: var(--secondary);
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    position: sticky;
+    z-index: 2001;
+    top: 10px;
+    
+}
+.logoContainer{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    
+}
+.logoContainer img {
+    width: 60px;
+}
+.logoContainer h2{
+    color: var(--text);
+    text-align: center;
+}
+.meun ul{
+    display: flex;
+    gap: 2rem;
+    margin-right: 20px;
+}
+.meun ul li{
+    color: var(--text);
+}
+.meun ul li:hover{
+    color: var(--primary);
+}
+.labo{
+    margin-right: -40px;
+}
+/* Header End  */
+/* Home Start  */
+.home{
+    max-width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    text-align: center;
+    padding: 40px;
+    width: 40%;
+    color: var(--text);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    
+}
+.homeImg{
+    width: 40%;
+}
+.homeImg img{
+    width: 100%;
+}
+.content div span{
+    color: var(--primary);
+}
+.btn{
+    width: 120px;
+    height: 50px;
+    background-color: var(--primary);
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    color: var(--text);
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: #2bd0b7;
+}
+/* Home End  */
+/* Course Start  */
+.course{
+    max-width: 100%;
+    margin-top: 50px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title h1{
+   letter-spacing: 0.3rem;
+   font-size: 40px;
+   font-weight: 700;
+   color: var(--text);
+   text-decoration: underline !important;
+}
+.courseContent{
+    margin-top: 30px;
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+}
+.courseCard{
+    max-width: 300px;
+    padding: 10px;
+    background-color: var(--background);
+    position: relative;
+    height: 330px;
+    margin-right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; 
+    transition: 1s;
+    border-radius: 5px;
+    
+}
+.courseImg{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.courseCard h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.courseBtn{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.cardFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.footerControl{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.priceTag{
+    position: absolute;
+    background-color: var(--secondary);
+    width: 110px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    top: 0px;
+    left: 3px;
+}
+.sideCourse{
+    align-self: center;
+}
+.centerCourse{
+    margin-bottom: 20px;
+}
+/* Course End  */
+/* Teacher Start  */
+.teacher{
+    max-width: 100%;
+    margin-top: 50px;
+}
+.teacherContainer{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+.teacherCard{
+    max-width: 300px;
+    padding: 20px 50px;
+    background-color: var(--background);
+    margin-right: 30px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; 
+
+}
+.teacherImg{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+.socialMedia{
+    display: flex;
+    gap: 1rem;
+}
+.socialMediaImage{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+.socialMediaImage:hover{
+    transform: scale(1.5);
+}
+.divider{
+    margin: 10px 0;
+}
+/* Teacher End  */
+/* Review Start  */
+.review{
+    max-width: 100%;
+    margin-top: 50px;
+}
+.titleContainer{
+    display: flex;
+    justify-content: center;
+}
+.titleCard{
+    max-width: 400px;
+    background-color: var(--background);
+    margin-right: 30px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; 
+    margin-top: 30px;
+}
+.studentContainer{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    
+}
+.student{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+.starContainer{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.text{
+   text-align: start; 
+}
+/* Review End  */
+/* Contact Start  */
+.contact{
+    max-width: 100%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.contactContent{
+    background-color: var(--primary);
+    margin-right: 30px;
+    
+}
+.contactItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactItem div{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+/* Contact End  */
+/* Footer  */
