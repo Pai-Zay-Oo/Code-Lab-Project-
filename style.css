@@ -277,11 +277,10 @@ body{
     max-width: 100%;
     margin-top: 60px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 .contactContent{
-    background-color: var(--primary);
-    margin-right: 30px;
+    background-color: var(--secondary);
     
 }
 .contactItem{
@@ -294,5 +293,79 @@ body{
     margin-left: 5px;
 }
 
+
 /* Contact End  */
 /* Footer  */
+/* For Reponsive  */
+@media screen and (max-width:480px) {
+    body{
+        height: 4000px;
+    }
+    .header{
+        position: sticky;
+        z-index: 2001;
+        top: 10px;
+    }
+    .logoContainer{
+        width: 100%;
+        justify-content: center;
+    }
+    .meun{
+        display: none;
+    }
+    .home{
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    .homeImg{
+        width: 100%;
+    }
+    .content{
+        width: 100%; 
+        text-align: start;
+        font-size: 34px;
+        line-height: 50px;
+        margin-bottom: 10px;
+    }
+    .title{
+        width: 100%;
+    }
+    .title h1 {
+        font-size: 20px;
+        letter-spacing: unset;
+    }
+    .courseContent{
+        flex-wrap: wrap;
+    }
+    .courseCard{
+        margin: 10px auto;
+        max-width: 90%;
+    }
+    .teacherContainer{
+        flex-wrap: wrap;
+    }
+    .teacherCard{
+        margin: 10px auto;
+        max-width: 90%;
+    }
+    .titleContainer{
+        flex-wrap: wrap;
+    }
+    .titleCard{
+        margin: 10px auto;
+        max-width: 80%;
+    }
+    .contact{
+        margin-top: 10px;
+    }
+    .contactContent{
+        margin: 0 auto;
+    }
+    .contactContent h6{
+        font-size: 25px;
+        text-align: center;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    
+}
